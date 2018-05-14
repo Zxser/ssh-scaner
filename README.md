@@ -7,6 +7,8 @@ ssh password guessing，ssh登录密码破解
 ### 使用条件  
    Ubuntu 18.04 64bit  
    sudo apt install nmap hydra
+   centos7 
+   yum install hydra
 
 ### 运行程序  
    ./hydra.sh -p ./password.txt -f ./iplist.txt #对文件中的IP进行破解  
